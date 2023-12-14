@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="../src/scss/layout/gird.css">
+    <!-- <link rel="stylesheet" href="../src/styles.css"> -->
+    <link rel="stylesheet" href="../src/scss/index.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Outfit&display=swap"
+      rel="stylesheet" />
+    <title>React App</title>
+  </head>
+
+  <body>
+    <div id="root">
+      <header class="header">
+        <div class='container'>
+          <div class='header__container container'>
+            <div class='header__logo'>
+              <img src="../src/images/Frame.png" alt srcset>
+              <h1 class='header__logo--text'>Plollock</h1>
+            </div>
+            <div class='navbar'>
+              <ul class='nav__list-items'>
+                <a class="nav__list-item">Home</a>
+                <a class="nav__list-item">Services</a>
+                <a class="nav__list-item">About</a>
+                <a class="nav__list-item">Pages</a>
+                <a class="nav__list-item">Blog</a>
+                <a class="nav__list-item">Contact</a>
+              </ul>
+            </div>
+            <div class='header__button'>
+              <div class='header__search'>
+                <img src="../src/images/Search.jpg" alt>
+              </div>
+              <div class='header__bag2'>
+                <img src="../src/images/Bag 2.jpg" alt>
+              </div>
+              <div class='header__signup'>
+                <button class='button button--md'>signup</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="page-hero">
+        <div class="container">
+          <div class='page-hero__text'>
+            <h1 class='page-hero__title'>Everything we do to make <span
+                class='page-hero__title--text'>work
+                better.</span></h1>
+            <p>Find the right space, services,
+              and support, so your business and
+              its people can work their way, every day.</p>
+            <div class='page-hero__content'>
+              <button class='button button-lg'>BOOK NOW</button>
+              <div class='page-hero__play'>
+                <div class='page-hero__play--icon'>
+                  <img
+                    src='../src/images/fi_play.png' />
+                </div>
+                <span class='page-hero__play--text'>How It Works</span>
+              </div>
+            </div>
+          </div>
+          <div class='page-hero__images'>
+            <div class='image-item page-hero__images-item1'>
+              <img class='img__item1' src="../src/images/1.png" />
+              <img class='page-hero__images--b' src="../src/images/Union.png"
+                alt srcset>
+            </div>
+            <div class='image-item page-hero__images-item2'>
+              <img class='img__item2' src="../src/images/2.png" />
+              <img class='page-hero__images--b' src="../src/images/Union3.png"
+                alt srcset>
+            </div>
+            <div class='image-item page-hero__images-item3'>
+              <img class='page-hero__images--b' src="../src/images/Union2.png"
+                alt srcset>
+              <img class='img__item3' src="../src/images/3.png" />
+            </div>
+            <div class='image-item page-hero__images-item4'>
+              <img class='page-hero__images--b' src="../src/images/Union1.png"
+                alt srcset>
+              <img class='img__item4' src="../src/images/4.png" />
+            </div>
+            <div style='height: 500px;'></div>
+          </div>
+        </div>
+      </section>
+      <!-- service -->
+      <section class="page-service">
+        <div class="container">
+          <div class='page-service__title'>
+            <h2>From a single desk to a whole building.
+              The choice is yours.</h2>
+            <p class='page-service__title--description'>We provide office space
+              that’s flexible to your needs and fully
+              customisable.</p>
+          </div>
+          <div class='page-service__content'>
+            <div class='page-service__content-item'>
+              <div
+                class='page-service__item-img page-service__service-img--1'
+                style="--color-purple: #886CFF;">
+                <img src='../src/images/Icon.png'>
+              </div>
+              <div class='page-service__item-textbox'>
+                <h3 class='page-service__item-title'>Private Office</h3>
+                <div class='page-service__item-description'>Our coworking spaces
+                  are designed with collaboration in mind.</div>
+              </div>
+            </div>
+            <div class='page-service__content-item'>
+              <div
+                class='page-service__item-img page-service__service-img--2'
+                style="--color-blue: #4F77FF;">
+                <img src='../src/images/Icon2.png'>
+              </div>
+              <div class='page-service__item-textbox'>
+                <h3 class='page-service__item-title'>Dedicated Desk</h3>
+                <div class='page-service__item-description'>Our coworking spaces
+                  are designed with collaboration in mind.</div>
+              </div>
+            </div>
+            <div class='page-service__content-item'>
+              <div
+                class='page-service__item-img page-service__service-img--3'
+                style="--color-orange: #FF9513;">
+                <img src='../src/images/Icon3.png'>
+              </div>
+              <div class='page-service__item-textbox'>
+                <h3 class='page-service__item-title'>Hot Desk</h3>
+                <div class='page-service__item-description'>Our coworking spaces
+                  are designed with collaboration in mind.</div>
+              </div>
+            </div>
+            <div class='page-service__content-img'>
+              <img src="../src/images/BG.png" alt srcset>
+            </div>
+          </div>
+          <div class='page-service_btn'>
+            <button class='button button-lg'>View Our Services</button>
+          </div>
+        </div>
+      </section>
+      <!-- logo -->
+      <section class="page-logo">
+        <div class="container">
+          <h2 class='page-logo__title'>Working with the most trusted brands in
+            the industry</h2>
+          <div class='page-logo__list'>
+            <div class='page-logo__list-item'>
+              <img src="../src/images/Bitmap.png" alt srcset>
+            </div>
+            <div class='page-logo__list-item'>
+              <img src="../src/images/nextflix.png" alt srcset>
+            </div>
+            <div class='page-logo__list-item'>
+              <img src="../src/images/slack.png" alt srcset>
+            </div>
+            <div class='page-logo__list-item'>
+              <img src="../src/images/intercom.png" alt srcset>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- item -->
+      <section class="page-items">
+        <div class="container">
+          <div class='page-items__container'>
+            <h2 class='page-items__title'>Lockable office space for teams
+              of
+              all sizes</h2>
+            <div class='page-items__content'>
+              <div class='page-items__img'>
+                <img src='../src/images/pageitem1.png' alt>
+              </div>
+              <div class='page-items__textbox'>
+                <h4 class='page-items__textbox-title'>Office Membership</h4>
+                <p>Book a day pass for
+                  a seat in our coworking spaces with
+                  access to amenities.</p>
+              </div>
+            </div>
+            <div class='page-items__content'>
+              <div class='page-items__img'>
+                <img src='../src/images/pageitem1.png' alt>
+              </div>
+              <div class='page-items__textbox'>
+                <h4 class='page-items__textbox-title'>Office Membership</h4>
+                <p>Book a day pass for
+                  a seat in our coworking spaces with
+                  access to amenities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- gellery -->
+      <section class="page-gellery">
+        <div class='container'>
+          <div class='page-gellery__container'>
+            <div class='page-gellery__left'>
+              <div class='page-gellery__img'>
+                <img src='../src/images/Img.png'>
+              </div>
+              <div class='page-gellery__info'>
+                <h3 class='page-gellery__address'>229 West 36th Street. New
+                  York, USA.</h3>
+                <div class='page-gellery__price'>From $49/mo</div>
+              </div>
+              <div class='page-gellery__description'>We’re prioritising the
+                health and safety of all members and employees in our spaces
+                so you can continue working with peace of mind.</div>
+            </div>
+            <div class='page-gellery__right'>
+              <div class='page-gellery__textbox'>
+                <h1 class='page-gellery__textbox-title'>
+                  Featured office space locations
+                </h1>
+                <p>Whether you’re an established enterprise or a scaling
+                  startup, find an office space that's right for you.</p>
+                <div class='page-gellery__textbox-link'>
+                  <a href>View All Buildings</a>
+                  <img src="../src/images/Right.png">
+                </div>
+                <div class='page-gellery__textbox-icon'>
+                  <img class='page-gellery__icon-left'
+                    src="../src/images/arrow-circle-left.jpg" alt srcset>
+                  <img class='page-gellery__icon-right'
+                    src="../src/images/arrow-circle-right.jpg" alt srcset>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section class="page-about">
+        <div class='container'>
+          <div class='page-about__container'>
+            <div class='page-about__title'>
+              <h3><span class='page-about__title-color'>Office space</span> your
+                way. Work wherever business
+                takes you</h3>
+              <p>From a single desk to a whole
+                building. The choice is yours</p>
+            </div>
+            <div class='page-about__content'>
+              <div class='page-about__box'>
+                <p class='page-about__box-name'>Office Space</p>
+                <h2 class='page-about__box-title'>Flexible workspace designed
+                  around your needs and comfort</h2>
+                <p>Whether you need a single desk or a whole building, we
+                  provide office space that’s flexible to your needs and fully
+                  customisable. Available for a day, or as long as you need.
+                </p>
+                <div class='page-about__box-link'>
+                  <a href>Learn more</a>
+                  <div><img src="../src/images/Right.png" alt srcset></div>
+                </div>
+                <div class='page-about__box-indicator'>
+                  <div class='page-about__box-indicator--w '></div>
+                  <div class='page-about__box-indicator--w '></div>
+                  <div class='page-about__box-indicator--w '></div>
+                </div>
+              </div>
+              <div class='page-about__box-img'>
+                <div class='page-about__box-img1'>
+                  <img src="../src/images/imgabout.png" alt>
+                </div>
+                <div class='page-about__box-img2'>
+                  <img src="../src/images/imgeabout2.png" alt>
+                </div>
+                <div class='page-about__box-img3'>
+                  <img src="../src/images/Union.png" alt srcset>
+                </div>
+                <div class='page-about__box-img4'>
+                  <img src="../src/images/Union4.png" alt srcset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- portfolio -->
+      <section class="page-portfolio">
+        <div class='container'>
+          <div class="page-portfolio__container">
+            <h1 class='page-portfolio__title'>With over <span>3,000 locations
+              </span> globally we have
+              offices, and meeting
+              rooms in every major city</h1>
+          </div>
+          <div class='page-portfolio__img-top'>
+            <div class='page-portfolio__list-image1'>
+              <div class='page-portfolio__img-top1'>
+                <img src="../src/images/Union2.png">
+              </div>
+              <div class='page-portfolio__img-item1'>
+                <img src="../src/images/Imgportfolio.png">
+                <div class='page-portfolio__img-text'>
+                  New York
+                </div>
+              </div>
+              <div class='page-portfolio__img-item2'>
+                <img src="../src/images/Imgporfolio.png">
+                <div class='page-portfolio__img-text'>
+                  Miami
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class='page-portfolio__list-image2'>
+              <div class='page-portfolio__img-top1'>
+                <img src="../src/images/Union2.png">
+              </div>
+              <div class='page-portfolio__img-item1'>
+                <img src="../src/images/Imgportfolio.png">
+                <div class='page-portfolio__img-text'>
+                  San Francisco
+                </div>
+              </div>
+              <div class='page-portfolio__img-item2'>
+                <img src="../src/images/Imgporfolio.png">
+                <div class='page-portfolio__img-text'>
+                  Los Angeles
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+          </div>
+        </div>
+      </section>
+      <!-- pricing -->
+      <section class='page-pricing'>
+        <div class='container'>
+          <div class='page-pricing__container'>
+            <div class='page-pricing__title'>
+              <div class='page-pricing__title-top'>Set up your office, pick a
+                plan later</div>
+              <h3>Try Shopify free for 14 days, no credit card required</h3>
+            </div>
+            <div class='page-pricing__tag'>
+              <div class='page-pricing__tag-list'>
+                <p>Monthly</p>
+                <div>
+                  <img src="../src/images/Toggle.png" alt>
+                </div>
+              </div>
+              <div class='page-pricing__tag-list'>
+                <p>Yearly</p>
+                <div class='page-pricing__btn'>
+                  <button>save 20%</button>
+                </div>
+              </div>
+
+            </div>
+            <div class='page-pricing__table'>
+              <div class='page-pricing__table-list'>
+                <div class='page-pricing__item-top'>
+                  <h4>Freelance</h4>
+                  <h2>$<span class='page-pricing__item-price'>19</span>/mo</h2>
+                  <p>Best for new startups or businesses
+                    with occasional in-person sales</p>
+                </div>
+                <div class='page-pricing__item-bottom'>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Fully-furnished and serviced</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Access break-out areas</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Thousands of locations</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Global transport hubs</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>24/7 Support Online</h3>
+                  </div>
+                </div>
+                <div class='page-pricing__btn'>
+                  Start your free trial
+                </div>
+              </div>
+              <div class='page-pricing__table-list'>
+                <div class='page-pricing__item-top'>
+                  <h4>Startup</h4>
+                  <h2>$<span class='page-pricing__item-price'>49</span>/mo</h2>
+                  <p>Best for new startups or businesses
+                    with occasional in-person sales</p>
+                </div>
+                <div class='page-pricing__item-bottom'>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Fully-furnished and serviced</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Access break-out areas</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Thousands of locations</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>Global transport hubs</h3>
+                  </div>
+                  <div class='page-pricing__item-text'>
+                    <img src="../src/images/Icon_toggle.png" alt>
+                    <h3>24/7 Support Online</h3>
+                  </div>
+                </div>
+                <div class='page-pricing__btn'>
+                  Start your free trial
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <footer class="page-footer"></footer>
+    </div>
+    <div style='height: 550px;'></div>
+  </body>
+</html>
