@@ -1319,8 +1319,8 @@ line-height: 145.455% ;
 letter-spacing: -1px;
 }
 .page-footer__link {
-  display: grid;
-  grid-column-gap: 20px;
+display: grid;
+grid-column-gap: 20px;
 
 }
 .page-footer__link a{
@@ -1386,7 +1386,7 @@ height: 1px;
   padding: 40px 0;
 }
 .page-footer__copyright p {
-  color: var(--Text-Text-Gray, #E7E5EA);
+color: var(--Text-Text-Gray, #E7E5EA);
 font-feature-settings: 'clig' off, 'liga' off;
 /* Paragraph/Paragraph 2 */
 font-family: DM Sans;
@@ -1394,7 +1394,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height:  162.5% ;
-    display: flex;
-    align-items: center;
+display: flex;
+align-items: center;
 
 }
