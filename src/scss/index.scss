@@ -1,8 +1,4 @@
 @import 'pageblog';
-
-
-
-
 * {
   padding: 0;
   margin: 0;
@@ -30,10 +26,10 @@ body {
 }
 
 .container {
-  /* max-width: var(--grid-container-width); */
-  margin: 0 auto;
-  padding-left: var(--grid-container-gap);
-  padding-right: var(--grid-container-gap);
+ max-width: var(--grid-container-width); 
+margin: 0 auto;
+padding-left: var(--grid-container-gap);
+padding-right: var(--grid-container-gap);
 width: 1300px ;
 }
 
@@ -68,12 +64,11 @@ width: 1300px ;
   }
 }
 .header__container {
- 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
- 
   align-items: center;
+  padding-top: 16px;
 }
 .header__logo{
   display: flex;

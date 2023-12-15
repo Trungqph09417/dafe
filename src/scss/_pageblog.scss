@@ -1,0 +1,66 @@
+
+.page-blog__header{
+  fill: var(--BG-BG-Light, #F8FAFC);
+}
+.page-blog__header-textbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 203px 0 203px;
+}
+.page-blog__header-title{
+  color: var(--Text-Heading, #2D3958);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Display/Display 3 */
+font-family: Outfit;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 116.667% ;
+letter-spacing: -2px;
+}
+.header-blog__img img{
+position: relative;
+}
+.header-blog__img .container{
+  position: absolute;
+}
+.header-blog__container{
+  background-image: url("../images/bg-blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-blog__header-link{
+  color: var(--Text-Heading, #2D3958);
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+/* Link */
+font-family: Outfit;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height:  160% ;
+letter-spacing: -0.3px;
+text-transform: uppercase;
+}
+.page-blog__header-link span{
+color: var(--Text-Text, #7B88A8);
+font-feature-settings: 'clig' off, 'liga' off;
+/* Link */
+font-family: Outfit;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.3px;
+text-transform: uppercase;
+}
+.page-blog__content{
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: 64% 36%;
+  grid-column-gap: 30px;
+}
